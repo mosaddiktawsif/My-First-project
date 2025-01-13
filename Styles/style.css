@@ -591,6 +591,36 @@ left: 13.34px;
     margin-top: 2px;
 }
 
+#qoute
+{  
+    display: flex;
+    border-radius: 24px;
+    background: rgb(245, 244, 244);
+    
+    padding:48px;
+    align-items: center;
+    flex-direction: row;
+    gap: 64;
+    margin-left: 220px;
+    height: 200;
+    gap: 24px;
+    margin-right: 190px;
+    border-color: rgb(188, 185, 185);
+    border-style: solid;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: 45px;
+    background-position-y: 30px;
+    margin-bottom: 80px;
+}
+.qoute-one
+{
+    
+}
+
+
+
 #news
 {
      margin-left: 225px;
@@ -620,13 +650,12 @@ left: 13.34px;
     display: flex;
     border-radius: 24px;
     background: rgb(245, 244, 244);
-    /* padding: 60px 70px 60px 70px; */
+    
     padding:48px;
     align-items: center;
     flex-direction: row;
     gap: 64;
-    /* width: 1280px;
-    height: 560px; */
+    
     height: 200;
     gap: 24px;
     margin: 35px 170px 0px 0px ; 
@@ -749,4 +778,71 @@ margin: 80px 0px;
     border: 1px solid #d9d6d6;
     border-radius: 10px;
     text-align: center;
+}
+#newsletter
+{
+    display: flex;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 0px 100px;
+    align-items: center;
+    /* gap: 64; */
+    width: 1280px;
+    height: 360px;
+    margin-left: 225px;
+    margin-top:3px; 
+}
+
+.newsletter-form
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 15px;
+
+}
+
+.email-input
+{
+padding: 18px 40px 18px 40px;
+    border-radius: 10px;
+    background: rgb(252, 252, 252);
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+
+}
+
+
+.final-bd
+{
+   color: black;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1280px;
+    height: 48px;
+    margin-left: 300px ;
+    
+}
+
+.links
+{
+
+     width: 200px;
+    height: 95px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    
+   
+    
+    padding: 20px;
+    border-width: 1px;
+    
+    display: inline-block;
+    justify-content: space-around; 
 }
