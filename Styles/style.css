@@ -150,12 +150,12 @@ left: 13.34px;
     width: 100px;
     height: 25px;
     
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 12;
-    padding: 0px;
+    gap: 30px;
+    
 
 
     /* Inside Auto Layout */
@@ -171,7 +171,6 @@ left: 13.34px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0%;
-    text-align: left;
 }
 
 .pillar-one-desc {
@@ -454,4 +453,137 @@ left: 13.34px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+ #vision .title
+{
+    font-size: 50px;
+    margin-left: 225px;
+    margin-top: 80px;
+    color: black;
+} 
+.description
+{
+    margin-left: 225px;
+    margin-right: 225px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-one
+{
+        display: flex;
+        justify-content:space-evenly;
+        height: 200;
+        gap: 24px;
+        margin: 35px 100px 115px 100px ; 
+       
+
+}
+
+.sub-vision-one
+{   box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);   
+    width: 400px;
+    height: 310px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding : 10px 20px;
+}
+.vision-one-desc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding-top: 13px;
+   
+    color: rgba(14, 14, 14, 0.7);
+
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-one
+{   height: 41px;
+    width: 110px;
+    border-radius: 11px;                                                                   
+    background: rgb(84, 144, 245);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    margin: 10px;
+    
+} 
+
+.sub-vision-two
+{   box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px; 
+    box-sizing: border-box;
+    background: rgb(198, 228, 214);
+    width: 400px;
+    height: 310px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding : 10px 20px;
+}
+
+
+.btn-two
+{
+    height: 41px;
+    width: 110px;
+    border-radius: 11px;               
+    background: rgb(9, 161, 92);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.sub-vision-three
+{   box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px; 
+    box-sizing: border-box;
+    background: rgb(247, 235, 207);
+    width: 400px;
+    height: 310px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding : 10px 20px;
+}
+
+.btn-three
+{
+    height: 41px;
+    width: 110px;
+    border-radius: 11px;               
+    background: rgb(255, 194, 57);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 2px;
 }
