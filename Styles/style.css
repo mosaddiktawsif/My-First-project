@@ -691,3 +691,62 @@ text-align: left;
 {
     margin-left: 90px;
 }
+#donation
+{
+width: 1000;
+height: 464px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32;
+padding: 0px;
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 80px 0px;
+}
+.today{
+    
+    font-size: 50px;
+    margin-left:0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.description-two
+{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1280px;
+    height: 48px;
+}
+
+.donate-btn
+{
+    width: 200px;
+    height: 95px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background: rgb(245, 244, 244);
+    border-style: solid;
+    padding: 20px;
+    border-width: 1px;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: space-around;
+ 
+}
+
+.frame
+{
+    margin-bottom: 30px;
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #d9d6d6;
+    border-radius: 10px;
+    text-align: center;
+}
