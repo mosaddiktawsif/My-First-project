@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", serif; */
+.navigate {
+    display: flex;
+    margin-left: 230px;
+    margin-right: 190px; 
+    margin-top: 40px;
+    justify-content: space-between; 
+}
+.bd {
+    font-size: 40px;
+    }
+
+.sign {
+    position: static;
+    color: green;
+    font-size: 18px;
+    border-color: green;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+
+
+#first-frame {
+    display: flex;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    align-items: center;
+    flex-direction: row;
+    gap: 64;
+    width: 1280px;
+    height: 560px;
+    margin-left: 225px;
+    margin-top:30px;
+}
+
+
+.second-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+
+.third-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 0px;
+
+    /* Font Layout */
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+
+    /* Font Layout */
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+}
+
+.new {
+    padding: 17px 34px 17px 34px;
+    border-radius: 10px;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+.hero {
+    margin-left: 140px;
+}
+
+
+#pillars .heading-one 
+{
+    font-size: 50px;
+    margin-left: 225px;
+    margin-top: 80px;
+}
+
+
+#pillars .pillar-one 
+{
+    display: flex;
+    justify-content:flex-start;
+    margin : 100px 0px 100px 80px;
+    gap : 105px;
+    margin-left : 225px;
+}
+
+.sub-piller-one {
+    width: 290px;
+    height: 290px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding: 24px;
+
+    box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.nation
+{
+padding: 7px;
+width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+}
+
+
+.national {
+    width: 100px;
+    height: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pillar-one-desc {
+    
+    position: static;
+    width: 254px;
+    height: 72px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sub-piller-two
+{
+    width: 290px;
+    height: 290px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+
+    box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.social
+{
+    padding: 7px;
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+}
+
+.socialislm
+{
+    width: 100px;
+    height: 25px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.piller-two-desc
+{
+    position: static;
+    width: 254px;
+    height: 72px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sub-piller-three
+{
+    width: 290px;
+    height: 290px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+
+    box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.democra
+{
+    padding: 7px;
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+}
+.democ
+{
+    width: 100px;
+    height: 25px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.piller-three-desc
+{
+    position: static;
+    width: 254px;
+    height: 72px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sub-piller-four
+{
+    width: 290px;
+    height: 290px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding: 24px;
+
+    box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+.secular
+{
+    padding: 7px;
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+}
+.secul
+{
+    width: 100px;
+    height: 25px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.piller-four-desc
+{
+    position: static;
+    width: 254px;
+    height: 72px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    
+    margin: 10px 0px;
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
